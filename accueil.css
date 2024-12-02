@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+header
+{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+a.logo
+{
+    text-decoration: none;
+    color: black;
+}
+.portfolio
+{
+    margin-left: 250px;
+    font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.topnav span
+{
+    color: #007FFF;
+    font-weight: 800;
+    border-bottom: #007FFF 5px solid;
+}
+.topnav
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    border-bottom: solid 1px #007FFF;
+    box-shadow: 0 0 5px lightgray;
+}
+.navigation
+{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+.navigation a
+{
+    margin: 0 25px;
+    font-weight: 600;
+    position: relative;
+    color: black;
+}
+.lien-interne
+{
+    position: absolute;
+    text-decoration: none;
+    font-weight: 600;
+}
+.lien-interne::after
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    transform:scale(0);
+    background-color: #007FFF;
+}
+.lien-interne:hover::after
+{
+    transform: scale(1);
+    transition: 0.3s;
+}
+p a 
+{
+    color: #007FFF;
+    margin: 0 5px;
+}
+
+.home
+{
+    background-image: url(pexels-brett-sayles-2881232\ \(4\).jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home h1
+{
+    font-size: 5em;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.home p
+{
+    font-size: 2em;
+}
+.apropos
+{
+    padding: 100px 500px;
+}
+.apropos h1
+{
+    font-size: 3em;
+    text-align: center;
+}
+.presentation
+{
+    margin: 60px 0;
+}
+.cv
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #007FFF;
+    font-weight: 600;
+    position: relative;
+}
+p
+{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+p + p,h3
+{
+    margin: 20px 0;
+}
+h2
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.logo-artemys
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin-bottom:25px;
+}
+.container div
+{
+    height: inherit;
+    padding: 25px 0;
+    background-color: #007FFF;
+    margin: 0 20px;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modifback::after
+{
+    background-color: red;
+}
+.container .active
+{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5em;
+}
+.container span
+{
+    font-size: 1.3em ;
+    font-weight: 700;
+}
+img
+{
+    width: 300px;
+    margin: 20px 0;
+}
+p .active
+{
+    font-weight: 600;
+}
+footer
+{
+    height: 50px;
+    background-image: url(pexels-brett-sayles-2881232\ \(4\).jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+footer span
+{
+    margin: 0 15px;
+}
+footer a 
+{
+    color: white;
+}
+footer a:hover
+{
+    color: #7287fb ;
+}
+
+div.logo_star
+{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.logo_star img{
+    height: 60px;
+    width: auto;
+    margin-right: 20px;
+}
+.logo_star i
+{
+    color: #022e5a;
+    margin: 0 3px;
+}

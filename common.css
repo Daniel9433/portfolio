@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background-color: #FFF;
+}
+header
+{
+    height: 12vh;
+    position: sticky;
+    top: 0;
+}
+.portfolio
+{
+    margin-left: 250px;
+    font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.topnav span
+{
+    color: #7287fb;
+    font-weight: 800;
+    border-bottom: #7287fb 5px solid;
+}
+.topnav
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    border-bottom: solid 1px lightgrey;
+    box-shadow: 0 0 5px lightgray;
+}
+.portfolio
+{
+    font-size: 25px;
+}
+.navigation
+{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+.navigation a
+{
+    margin: 0 25px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+.navigation a::after
+{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    background-color: #7287fb;
+    width: 100%;
+    transform: scaleX(0);
+}
+.navigation a:hover::after, .navigation a:hover
+{
+   transform: scaleX(1);
+}
